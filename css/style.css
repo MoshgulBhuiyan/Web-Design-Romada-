@@ -1,0 +1,443 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Black;
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Italic;
+    src: url(../fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: Dosis-Bold;
+    src: url(../fonts/Dosis-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Droid-Serif;
+    src: url(../fonts/DroidSerif.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url(../fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+.header-section {
+    background-color: #FFEDDF;
+    padding-bottom: 10px;
+}
+
+.romada-logo {
+    width: 112 px;
+    height: 23px;
+}
+
+.navbar .navbar-expand-lg .navbar-light {
+    background-color: #FFEDDF;
+    margin: 0s;
+}
+
+.navbar .navbar-nav {
+    font-family: Lato-Bold;
+    font-size: 16px;
+    color: #666666;
+    margin-left: 20px;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 18px;
+}
+
+.navbar .navbar-nav .nav-item :hover {
+    color: #FF4A57;
+}
+
+.shop {
+    padding-left: 10px;
+    color: #666666;
+    font-family: Lato-Bold;
+}
+
+.shop:hover {
+    color: #FF4A57;
+}
+
+.search {
+    margin-top: 18px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 24px;
+    background-color: #FF4A57;
+}
+
+#fa-search {
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+.search:hover .search-form {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.search-form {
+    position: absolute;
+    top: 75%;
+    left: -135%;
+    right: 42px;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility, opacity;
+}
+
+.search-form input {
+    border: 1px;
+    background: #e6e6e6;
+    width: 100%;
+    height: 35px;
+    outline: 0;
+}
+
+.search-form button {
+    cursor: pointer;
+    background-color: #555555;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    top: 8px;
+    left: 100%;
+    height: 35px;
+
+}
+
+.slide-img img {
+    padding-top: 30px;
+    margin: 0px;
+    width: 656px;
+    height: 678px;
+
+}
+
+.slider-head h1 {
+    position: absolute;
+    left: 4%;
+    top: 22%;
+    font-size: 60px;
+}
+
+.content-slider h4 {
+    font-size: 16px;
+    font-family: LatoRegular;
+    color: #B4B2BA;
+    position: absolute;
+    top: 47%;
+    left: 4%;
+}
+
+.search-slider {
+    width: 430px;
+    height: 68px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 4%;
+    top: 58%;
+    border-radius: 180px;
+}
+
+.tnp-email {
+    width: 190px;
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    padding: 2px;
+    border: none;
+}
+
+.tnp-button {
+    position: absolute;
+    top: 16%;
+    left: 65%;
+    border: none;
+    background-color: #FE5561;
+    color: #ffffff;
+    font-family: Dosis-Bold;
+    font-size: 20px;
+    padding: 9px 30px;
+    border-radius: 50px;
+}
+
+.tnp-button:hover {
+    background-color: #DA3440;
+}
+
+.demo-support {
+    margin: 0px;
+    padding: 105px 0px;
+}
+
+.product {
+    padding: 75px 0px;
+}
+
+.product:hover {
+    background-color: #FF4A57;
+
+}
+
+.icon i:hover {
+    color: #ffffff;
+}
+
+.icon i {
+    font-size: 62px;
+    color: #FF4A57;
+    padding-bottom: 20px;
+}
+
+.icon-head {
+    padding-bottom: 20px;
+}
+
+.icon-text {
+    font-size: 16px;
+    font-family: Lato-Black;
+    color: #B4B2BA;
+}
+
+.icon-next {
+    padding-top: 20px;
+}
+
+.icon-next a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #f4f3ff;
+    color: #5f708f;
+}
+
+.icon-next a:hover {
+    color: #FF4A57;
+}
+
+.about-romada {
+    background-color: #FFF6F5;
+    padding: 100px 0px;
+}
+
+.about-img {
+    padding: 0px 15px;
+}
+
+.about-img img {
+    width: 560px;
+    height: 520px;
+}
+
+.about-text {
+    padding-left: 40px;
+    padding-right: 15px
+}
+
+.about-p {
+    padding-bottom: 14px;
+}
+
+.about-p p {
+    color: #FF4A57;
+    font-family: Lato-Bold;
+    font-size: 18px;
+}
+
+.about-bold {
+    padding-bottom: 15px;
+}
+
+.about-bold h1 {
+    font-size: 51px;
+    font-family: Lato-Bold;
+
+}
+
+.about-pera {}
+
+.about-pera1 {
+    padding-bottom: 9px;
+    font-family: LatoRegular;
+    font-size: 16px;
+    color: #B4B2BA;
+}
+
+.about-pera2 {
+    padding-bottom: 9px;
+    font-family: LatoRegular;
+    font-size: 16px;
+    color: #B4B2BA;
+}
+
+.about-btn {
+    padding-top: 19px;
+}
+
+.abt-btn {
+    background-color: #FF4A57;
+    border: none;
+    width: 220px;
+    height: 55px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 50px;
+    font-family: Droid-Serif;
+}
+
+.abt-btn:hover {
+    background-color: #DA3440;
+    transition: 0.5s;
+}
+
+.problem {
+    padding: 100px 0px;
+}
+
+.prob {}
+.prob h5 {
+    color: #FF4A57;
+    font font-size: 14px;
+    font-family: LatoRegular;
+    position: absolute;
+    left: 14%;
+}
+.prob h1 {
+    font-family: Lato-Bold;
+    font-size: 58px;
+    padding-top: 30px;
+    padding-left: 72px;
+   
+}
+.list {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #7886a0;
+    padding-top: 25px;
+    padding-left: 42px;
+}
+.ct-list {
+    list-style: none;
+    margin: 0;
+    
+}
+.ct-list li i {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: 2px solid #eae4ff;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+    color: #152136;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 300ms linear 0ms;
+}
+.ct-list li+li {
+    margin-top: 20px;
+}
+.ct-list li {
+    font-size: 14px;
+    position: relative;
+    padding: 9px 0 9px 61px;
+    transition: all 300ms linear 0ms;
+}
+ul li {
+    list-style-position: inside;
+}
+.ct-list li i:hover {
+    color: #ffffff;
+    background-color: #FF4A57;
+    border: none;
+}
+.prob-btn {
+    padding-top: 25px;
+    padding-left: 76px;
+    display: inline-block;
+}
+
+.pro-btn {
+    background-color: transparent;
+    width: 260px;
+    height: 65px; 
+    font-size: 18px;
+    border: 1px #7E889F solid;
+    color: #7E889F;
+    border-radius: 50px;
+    font-family: Droid-Serif;
+    margin-right: 20px;
+}
+.pro-btn:hover {
+    background-color: #DA3440;
+    color: #ffffff;
+    border: none;
+    transition: 0.5s;
+}
+.prob-btn a{
+    color: #fff;
+    background-color: #ff4a57;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 120px;
+    font-size: 14px;
+    line-height: 65px;
+}
+.prob-btn a:hover {
+    background-color: #DA3541;
+    transition: 0.6s;
+}
+.prob-img img {
+    width: 626px;
+    height: 567px;
+}
+
+
+
+
+
+
+
+
+
+
+
