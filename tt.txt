@@ -64,5 +64,4 @@ ul li {
     background-color: #FF4A57;
     border: none;
 }
-
-add new line
+# additional something here
